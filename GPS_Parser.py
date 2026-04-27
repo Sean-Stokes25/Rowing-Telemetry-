@@ -1,8 +1,3 @@
-#-----------------------
-#GPS Parser
-#23/01/2026
-#-----------------------
-
 
 def cleanup(input_string):
     #removes all un-printable ascii characters
