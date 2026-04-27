@@ -13,6 +13,11 @@ This is just a project for me to become more comfortable with seriel and wireles
 
 
 So far i have got distance and speed working
+
 I have also got the access point working
+
 Still messing around with fonts for my display (Im running out of ram)
+
+Im creating the fonts using some software called glcd font creator by MIKROE
+
 im not going to start onto the IMU work(Rate, Distance per stroke and Acceleration graph) until i figure out my ram issue with the display
