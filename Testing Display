@@ -1,0 +1,19 @@
+from machine import Pin, SPI
+import ili9341    #rdagger repo 
+
+from xglcd_font import XglcdFont
+
+
+
+font = XglcdFont("Tahoma48x46nums only.c",48,46)    #This file way too big even when its just numbers
+
+spi = SPI(
+    1,
+    baudrate=20000000,
+    sck=Pin(18),
+    mosi=Pin(23)
+)
+
+display = ili9341.Display(spi, dc=Pin(2), cs=Pin(15), rst=Pin(4))
+
+display.draw_text(100,100,"123",font,ili9341.color565(255,255,255))
