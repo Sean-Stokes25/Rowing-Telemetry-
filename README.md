@@ -1,6 +1,7 @@
 # Rowing-Telemetry-
 My version of an NK speed-coach I guess
-Been working on it for a while just never put it on github
+
+Been working on it since i completed my nmea parser I just never put this project on github
 
 Trying to track distance,stroke-rate,speed, and create a graph of rate of acceleration per stroke.
 
